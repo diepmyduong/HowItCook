@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">How It Cook</string>
+    <string name="ask_name">"Xin chào! \n Hãy gõ tên của bạn" </string>
+    <string name="next">Tiếp</string>
+    <string name="welcome">Xin chào</string>
+    <string name="do_what">Bạn muốn học làm gì?</string>
+    <string name="suggest">Gợi ý</string>
+    <string name="find_something">Tìm kiếm</string>
+    <string name="stuff">Nguyên liệu</string>
+    <string name="step">Thực hiện</string>
+</resources>
