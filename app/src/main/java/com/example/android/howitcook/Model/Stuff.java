@@ -4,14 +4,22 @@ import com.example.android.howitcook.DAL.CourseDAL;
 
 import java.io.Serializable;
 
+import io.realm.RealmObject;
+import io.realm.annotations.Ignore;
+import io.realm.annotations.Index;
+import io.realm.annotations.PrimaryKey;
+
 /**
  * Created by Admin on 23/12/2015.
  */
-public class Stuff implements Serializable{
+public class Stuff extends RealmObject implements Serializable{
+    @PrimaryKey
+    @Index
     private int _id;
     private int _courseID;
     private int _rank;
     private String _content;
+    @Ignore
     private Course _course;
 
     public Stuff(){}

@@ -1,0 +1,260 @@
+[
+	{
+		"id" : 1,
+		"courseID" : 1,
+		"rank" : 1,
+		"content" : "Củ cải trắng 200 gr"
+	},
+	{
+		"id" : 2,
+		"courseID" : 1,
+		"rank" : 2,
+		"content" : "Hành lá 30 gr"
+	},
+	{
+		"id" : 3,
+		"courseID" : 1,
+		"rank" : 3,
+		"content" : "Rượu trắng 10 ml"
+	},
+	{
+		"id" : 4,
+		"courseID" : 1,
+		"rank" : 4,
+		"content" : "Tiêu 5 gr"
+	},
+	{
+		"id" : 5,
+		"courseID" : 1,
+		"rank" : 5,
+		"content" : "Dầu ăn 2 muỗng cà phê"
+	},
+	{
+		"id" : 6,
+		"courseID" : 1,
+		"rank" : 6,
+		"content" : "Cá chép 1 con"
+	},
+	{
+		"id" : 7,
+		"courseID" : 1,
+		"rank" : 7,
+		"content" : "Gừng 20 gr"
+	},
+	{
+		"id" : 8,
+		"courseID" : 1,
+		"rank" : 8,
+		"content" : "Ngò rí 5 gr"
+	},
+	{
+		"id" : 9,
+		"courseID" : 1,
+		"rank" : 9,
+		"content" : "Muối 2.5 gr"
+	},
+	{
+		"id" : 10,
+		"courseID" : 2,
+		"rank" : 1,
+		"content" : "Cải thảo 450 gr"
+	},
+	{
+		"id" : 11,
+		"courseID" : 2,
+		"rank" : 2,
+		"content" : "Tương đậu nành 30 gr"
+	},
+	{
+		"id" : 12,
+		"courseID" : 2,
+		"rank" : 3,
+		"content" : "Nước tương 15 ml"
+	},
+	{
+		"id" : 13,
+		"courseID" : 2,
+		"rank" : 4,
+		"content" : "Hành lá 2 cây"
+	},
+	{
+		"id" : 14,
+		"courseID" : 2,
+		"rank" : 5,
+		"content" : "Tiêu 1/4 muỗng cà phê"
+	},
+	{
+		"id" : 15,
+		"courseID" : 2,
+		"rank" : 6,
+		"content" : "Nước dùng 1.5 lít (Thịt bò)"
+	},
+	{
+		"id" : 16,
+		"courseID" : 2,
+		"rank" : 7,
+		"content" : "Ớt bột 5 gr (Hàn Quốc)"
+	},
+	{
+		"id" : 17,
+		"courseID" : 2,
+		"rank" : 8,
+		"content" : "Tỏi băm 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 18,
+		"courseID" : 2,
+		"rank" : 9,
+		"content" : "Muối 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 22,
+		"courseID" : 3,
+		"rank" : 4,
+		"content" : "Cua biển 2 con (Cua lột)"
+	},
+	{
+		"id" : 23,
+		"courseID" : 3,
+		"rank" : 5,
+		"content" : "Hành tây 1 củ"
+	},
+	{
+		"id" : 24,
+		"courseID" : 3,
+		"rank" : 6,
+		"content" : "Trứng gà 1 "
+	},
+	{
+		"id" : 25,
+		"courseID" : 3,
+		"rank" : 7,
+		"content" : "Dầu hào 1 muỗng canh"
+	},
+	{
+		"id" : 26,
+		"courseID" : 3,
+		"rank" : 8,
+		"content" : "Tiêu 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 27,
+		"courseID" : 3,
+		"rank" : 9,
+		"content" : "Dầu ăn 2 muỗng canh"
+	},
+	{
+		"id" : 28,
+		"courseID" : 3,
+		"rank" : 10,
+		"content" : "Miến 200 gr"
+	},
+	{
+		"id" : 29,
+		"courseID" : 3,
+		"rank" : 11,
+		"content" : "Ớt chuông 1 trái"
+	},
+	{
+		"id" : 30,
+		"courseID" : 3,
+		"rank" : 12,
+		"content" : "Bột chiên xù 1/2 gói"
+	},
+	{
+		"id" : 31,
+		"courseID" : 3,
+		"rank" : 13,
+		"content" : "Hạt nêm 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 32,
+		"courseID" : 3,
+		"rank" : 14,
+		"content" : "Nước mắm 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 33,
+		"courseID" : 4,
+		"rank" : 1,
+		"content" : "Thịt chân giò heo 350 gr"
+	},
+	{
+		"id" : 34,
+		"courseID" : 4,
+		"rank" : 2,
+		"content" : "Câu kỷ tử 50 gr"
+	},
+	{
+		"id" : 35,
+		"courseID" : 4,
+		"rank" : 3,
+		"content" : "Hạt sen tươi 50 gr"
+	},
+	{
+		"id" : 36,
+		"courseID" : 4,
+		"rank" : 4,
+		"content" : "Muối 1 muỗng cà phê"
+	},
+	{
+		"id" : 37,
+		"courseID" : 4,
+		"rank" : 5,
+		"content" : "Đương quy 50 gr"
+	},
+	{
+		"id" : 38,
+		"courseID" : 4,
+		"rank" : 6,
+		"content" : "Táo tàu 50 gr"
+	},
+	{
+		"id" : 39,
+		"courseID" : 4,
+		"rank" : 7,
+		"content" : "Hạt nêm 1 muỗng cà phê"
+	},
+	{
+		"id" : 40,
+		"courseID" : 5,
+		"rank" : 1,
+		"content" : "Bao tử heo 200 gr"
+	},
+	{
+		"id" : 41,
+		"courseID" : 5,
+		"rank" : 2,
+		"content" : "Táo tàu 6 trái (Mứt)"
+	},
+	{
+		"id" : 42,
+		"courseID" : 5,
+		"rank" : 3,
+		"content" : "Gừng 10 gr"
+	},
+	{
+		"id" : 43,
+		"courseID" : 5,
+		"rank" : 4,
+		"content" : "Muối 5 gr"
+	},
+	{
+		"id" : 44,
+		"courseID" : 5,
+		"rank" : 5,
+		"content" : "Tiêu 1/2 muỗng cà phê"
+	},
+	{
+		"id" : 45,
+		"courseID" : 5,
+		"rank" : 6,
+		"content" : "Bạch chỉ 2 gr"
+	},
+	{
+		"id" : 46,
+		"courseID" : 5,
+		"rank" : 7,
+		"content" : "Hành lá 20 gr"
+	}
+]

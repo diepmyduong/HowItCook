@@ -1,0 +1,52 @@
+[
+	{
+		"id" : 1,
+		"title" : "Canh",
+		"image" : "categories_1"
+	},
+	{
+		"id" : 2,
+		"title" : "Xào",
+		"image" : "categories_2"
+	},
+	{
+		"id" : 3,
+		"title" : "Hầm",
+		"image" : "categories_3"
+	},
+	{
+		"id" : 4,
+		"title" : "Chiên",
+		"image" : "categories_4"
+	},
+	{
+		"id" : 5,
+		"title" : "Rang",
+		"image" : "categories_5"
+	},
+	{
+		"id" : 6,
+		"title" : "Rang",
+		"image" : "categories_6"
+	},
+	{
+		"id" : 7,
+		"title" : "Cuốn",
+		"image" : "categories_7"
+	},
+	{
+		"id" : 8,
+		"title" : "Cơm",
+		"image" : "categories_8"
+	},
+	{
+		"id" : 9,
+		"title" : "Bánh",
+		"image" : "categories_9"
+	},
+	{
+		"id" : 10,
+		"title" : "Chè",
+		"image" : "categories_10"
+	},
+]

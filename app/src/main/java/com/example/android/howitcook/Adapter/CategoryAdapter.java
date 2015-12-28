@@ -27,25 +27,23 @@ public class CategoryAdapter extends ArrayAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        Category categori = _categories.get(position);
+        Category category = _categories.get(position);
         if(convertView == null){
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.categories_item_template,parent,false);
         }
         TextView txtTitle = (TextView)convertView.findViewById(R.id.txt_category_title);
         TextView txtDescription = (TextView) convertView.findViewById(R.id.txt_category_description);
-        ImageView imgCategoriBackground = (ImageView)convertView.findViewById(R.id.img_item_background);
+        ImageView imgCategoryBackground = (ImageView)convertView.findViewById(R.id.img_item_background);
 
-        txtTitle.setText(categori.get_title());
+        txtTitle.setText(category.get_title());
         try {
-            imgCategoriBackground.setImageResource(categori.getImageResource());
+            imgCategoryBackground.setImageResource(category.get_helper().getImageResource());
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-        txtDescription.setText("Có "+categori.TotalCourse()+" món ăn");
-//        imgCategoriBackground.setImageURI(null);
-//        imgCategoriBackground.setImageURI(Uri.parse("android.resource://com.examole.android.howitcook/drawable/"+categori.get_imageSrc()));
+        txtDescription.setText("Có "+category.get_helper().TotalCourse()+" món ăn");
         return  convertView;
     }
 }

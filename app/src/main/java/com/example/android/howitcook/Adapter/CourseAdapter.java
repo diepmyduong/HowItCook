@@ -43,7 +43,7 @@ public class CourseAdapter extends ArrayAdapter {
         txtCourseTitle.setText(course.get_title());
         txtCourseDescription.setText(course.get_description());
         try {
-            imgCourse.setImageResource(course.getImageResource());
+            imgCourse.setImageResource(course.get_helper().getImageResource());
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

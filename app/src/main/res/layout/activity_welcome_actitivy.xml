@@ -45,12 +45,19 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/suggest"
-                android:id="@+id/btn_suggest"/>
+                android:id="@+id/btn_suggest"
+                android:background="@color/colorPrimary
+                Dark"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/find_something"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textStyle="bold"
                 android:id="@+id/btn_find"/>
         </LinearLayout>
     </LinearLayout>

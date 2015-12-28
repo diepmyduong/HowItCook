@@ -3,6 +3,7 @@ package com.example.android.howitcook.Model;
 import com.example.android.howitcook.DAL.CategoryDAL;
 import com.example.android.howitcook.DAL.StepDAL;
 import com.example.android.howitcook.DAL.StuffDAL;
+import com.example.android.howitcook.Model.Helper.CourseHelper;
 import com.example.android.howitcook.R;
 
 import java.io.Serializable;
@@ -12,19 +13,31 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import io.realm.RealmObject;
+import io.realm.annotations.Ignore;
+import io.realm.annotations.Index;
+import io.realm.annotations.PrimaryKey;
+
 /**
  * Created by Admin on 12/12/2015.
  */
-public class Course implements Serializable {
+public class Course extends RealmObject implements Serializable {
     //Private Properties
+    @PrimaryKey
+    @Index
     private int _id;
     private String _title;
     private String _description;
-    private List<Stuff> _stuffs;
-    private List<Step> _steps;
     private String _imageSrc;
     private int _categoryID;
+    @Ignore
     private Category _category;
+    @Ignore
+    private List<Stuff> _stuffs;
+    @Ignore
+    private List<Step> _steps;
+    @Ignore
+    private CourseHelper _helper;
 
     public Course(){}
 
@@ -61,13 +74,6 @@ public class Course implements Serializable {
         this._description = _description;
     }
 
-    public List<String> get_stuffs_at_list() {
-        List<String> result = new ArrayList<>();
-        for (Stuff stuff:get_stuffs()) {
-            result.add("_ "+stuff.get_content());
-        }
-        return  result;
-    }
     public List<Stuff> get_stuffs(){
         if(_stuffs == null){
             StuffDAL db = new StuffDAL();
@@ -80,13 +86,6 @@ public class Course implements Serializable {
         this._stuffs = _stuffs;
     }
 
-    public List<String> get_steps_at_list() {
-        List<String> result = new ArrayList<>();
-        for (Step step:get_steps()) {
-            result.add("_ " + step.get_content());
-        }
-        return  result;
-    }
     public List<Step> get_steps(){
         if(_steps == null){
             StepDAL db = new StepDAL();
@@ -127,8 +126,15 @@ public class Course implements Serializable {
         this._categoryID = _categoryID;
     }
 
-    public int getImageResource() throws NoSuchFieldException, IllegalAccessException {
-        Field field = R.drawable.class.getDeclaredField(this.get_imageSrc());
-        return field.getInt(this);
-}
+    public CourseHelper get_helper() {
+        if(_helper == null){
+            _helper = new CourseHelper(this);
+        }
+        return _helper;
+    }
+
+    //    public int getImageResource() throws NoSuchFieldException, IllegalAccessException {
+//        Field field = R.drawable.class.getDeclaredField(this.get_imageSrc());
+//        return field.getInt(this);
+//    }
 }

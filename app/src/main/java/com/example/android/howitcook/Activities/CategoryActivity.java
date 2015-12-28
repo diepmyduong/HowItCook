@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.android.howitcook.Adapter.CourseAdapter;
 import com.example.android.howitcook.Constant;
+import com.example.android.howitcook.DAL.CategoryDAL;
 import com.example.android.howitcook.DAL.CourseDAL;
 import com.example.android.howitcook.Model.Category;
 import com.example.android.howitcook.Model.Course;
@@ -38,7 +39,8 @@ public class CategoryActivity extends AppCompatActivity {
         _imgSearchButton = (ImageView)findViewById(R.id.img_search_button);
         //Get Category
         _db = new CourseDAL();
-        _currentCategory = (Category)getIntent().getSerializableExtra(Constant.CURRENT_CATEGORY);
+        int id = (int)getIntent().getSerializableExtra(Constant.CURRENT_CATEGORY);
+        _currentCategory = new CategoryDAL().findById(id);
         //Set Title
         _txtCategoryTitle.setText(_currentCategory.get_title());
         //Load Course Of Category
@@ -76,7 +78,7 @@ public class CategoryActivity extends AppCompatActivity {
                 //Get Course
                 Course course = _currentCategory.get_course().get(position);
                 Intent i = new Intent(CategoryActivity.this,CourseDetailActivity.class);
-                i.putExtra(Constant.CURRENT_COURSE,course);
+                i.putExtra(Constant.CURRENT_COURSE,course.get_id());
                 startActivity(i);
             }
         };

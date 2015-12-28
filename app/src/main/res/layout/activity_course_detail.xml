@@ -54,17 +54,18 @@
                 android:textSize="18dp"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"/>
-            <LinearLayout android:id="@+id/line_stuff"
+            <!--<ListView android:id="@+id/list_stuff"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+            <!--</ListView>-->
+            <TextView android:id="@+id/txt_list_stuff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-            <ListView android:id="@+id/list_stuff"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            </ListView>
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:textColor="#000"
+                android:text="Test"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,10 +76,17 @@
                 android:textSize="18dp"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"/>
-            <ListView android:id="@+id/list_step"
+            <TextView android:id="@+id/txt_list_step"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </ListView>
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:textColor="#000"
+                android:text="Test"/>
+            <!--<ListView android:id="@+id/list_step"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+            <!--</ListView>-->
         </LinearLayout>
     </ScrollView>
 

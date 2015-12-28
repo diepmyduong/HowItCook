@@ -81,7 +81,7 @@ public class WelcomeActitivy extends AppCompatActivity {
                 CourseDAL db = new CourseDAL();
                 Course course = db.getRandom();
                 Intent i = new Intent(WelcomeActitivy.this,CourseDetailActivity.class);
-                i.putExtra(Constant.CURRENT_COURSE,course);
+                i.putExtra(Constant.CURRENT_COURSE,course.get_id());
                 startActivity(i);
             }
         };
@@ -93,7 +93,7 @@ public class WelcomeActitivy extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Category category = _categories.get(position);
                 Intent i = new Intent(WelcomeActitivy.this,CategoryActivity.class);
-                i.putExtra(Constant.CURRENT_CATEGORY,category);
+                i.putExtra(Constant.CURRENT_CATEGORY,category.get_id());
                 startActivity(i);
             }
         };

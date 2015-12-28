@@ -69,7 +69,7 @@ public class SearchActivity extends AppCompatActivity {
                 //Get Course
                 Course course = _courses.get(position);
                 Intent i = new Intent(SearchActivity.this,CourseDetailActivity.class);
-                i.putExtra(Constant.CURRENT_COURSE,course);
+                i.putExtra(Constant.CURRENT_COURSE,course.get_id());
                 startActivity(i);
             }
         };

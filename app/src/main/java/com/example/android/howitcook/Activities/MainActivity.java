@@ -12,8 +12,10 @@ import android.widget.TextView;
 
 import com.example.android.howitcook.Configs.CookBookApplication;
 import com.example.android.howitcook.R;
+import com.example.android.howitcook.Store.DatabaseBuilder;
 import com.example.android.howitcook.Store.PreferenceStore;
 
+import org.json.JSONException;
 import org.w3c.dom.Text;
 
 import java.util.Locale;
@@ -38,11 +40,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         _editUserName = (EditText) findViewById(R.id.edit_username);
         _btnNext = (Button) findViewById(R.id.btn_next);
         _btnNext.setOnClickListener(this);
+        DatabaseBuilder dbBuilder = new DatabaseBuilder(getApplicationContext());
+        try {
+            dbBuilder.createDatabase();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         //Kiểm tra đã đăng ký tên người dùng chưa
         String userName = _store.getValue(PreferenceStore.KEY.PREF_USERNAME,false);
         if(userName != null){
             //Nếu rồi thì chuyển sang trang Welcome
             startActivity(_nextActivity);
+        }else{
+            //Load Database
+
         }
     }
 

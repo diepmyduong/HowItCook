@@ -1,0 +1,140 @@
+[
+	{
+		"id" : 1,
+		"courseID" : 1,
+		"rank" : 1,
+		"content" : "Chuẩn bị nguyên liệu. Cá mổ và rửa sạch. Củ cải gọt vỏ, rửa sạch. Hành lá cắt nhỏ. Gừng gọt vỏ, cắt lát."
+	},
+	{
+		"id" : 2,
+		"courseID" : 1,
+		"rank" : 2,
+		"content" : "Làm nóng chảo, thêm 2 muỗng cà phê dầu ăn, thêm hành và gừng vào, đảo thơm rồi cho cá vào chiên cho đến khi vàng nâu cả hai mặt."
+	},
+	{
+		"id" : 3,
+		"courseID" : 1,
+		"rank" : 3,
+		"content" : "Sau đó, thêm nước đủ làm ngập cá rồi đun sôi, thêm rượu trắng, tiêu và muối vừa đủ. Nấu trong 20 phút. Thêm củ cải trắng vào nấu trong 15 phút hoặc cho đến khi củ cải mềm."
+	},
+	{
+		"id" : 4,
+		"courseID" : 1,
+		"rank" : 4,
+		"content" : "Nêm nếm lại gia vị một lần nữa rồi cho rau ngò băm nhỏ vào. Cho canh cá củ cải ra chén rồi thưởng thức nhé!"
+	},
+	{
+		"id" : 5,
+		"courseID" : 2,
+		"rank" : 1,
+		"content" : "Cải thảo chia làm 4 phần, lấy 1 phần rửa sạch, tách lá, chẻ nhỏ để nấu canh."
+	},
+	{
+		"id" : 6,
+		"courseID" : 2,
+		"rank" : 2,
+		"content" : "Đun sôi nồi nước dùng thịt bò. Khuấy đều 30g tương đậu nành và sốt ớt trong rây lưới được đặt trong nồi nước dùng. Có thể cho thêm nước dùng tùy ý."
+	},
+	{
+		"id" : 7,
+		"courseID" : 2,
+		"rank" : 3,
+		"content" : "Sau đó, thêm cải thảo vào rồi đậy vung, đun cho đến khi sôi. Hạ nhiệt, đun hơi sôi cho đến khi cải thảo chín mềm (khoảng 10-15 phút), thêm hành lá và tỏi rồi đun thêm vài phút.Thêm 1/2 muỗng cà phê muối, 1/4 muỗng cà phê tiêu nếu thấy cần thiết rồi tắt bếp."
+	},
+	{
+		"id" : 8,
+		"courseID" : 2,
+		"rank" : 4,
+		"content" : "Cho canh cải thảo ra chén và ăn nóng. Thật tuyệt đúng không nào!"
+	},
+	{
+		"id" : 9,
+		"courseID" : 3,
+		"rank" : 1,
+		"content" : "Cua mua về rửa qua nước, để ráo xong cắt làm đôi. Lưu ý đối với cua lột, mua cua còn đang bò, khi chuẩn bị làm mới rửa sạch cắt đôi và lăn qua bột chiên ngay. Không rửa lâu dưới vòi nước hoặc ngâm trong nước sẽ làm cua nhũn, không còn ngon nữa."
+	},
+	{
+		"id" : 10,
+		"courseID" : 3,
+		"rank" : 2,
+		"content" : "Bột chiên giòn pha nước cho sệt rồi lăn cua qua bột và chiên trong chảo ngập dầu. Lượng bột tùy thuộc vào lượng cua, cỡ chừng 50gr bột là vừa, không lăn quá nhiều bột dễ gây ngấy khi ăn. Cua chiên vàng đều hai mặt, gắp ra dĩa có giấy thấm cho ráo dầu."
+	},
+	{
+		"id" : 11,
+		"courseID" : 3,
+		"rank" : 3,
+		"content" : "Miến luộc trong nước sôi từ 5-7 phút rồi trút ra rổ, xả nước lạnh rồi cho 1 muỗng dầu ăn vào để miến không bị dính. Hành tây và ớt chuông cắt sợi."
+	},
+	{
+		"id" : 12,
+		"courseID" : 3,
+		"rank" : 4,
+		"content" : "Trứng đập ra chén, nêm ½ muỗng cà phê nước mắm, tiêu. Đánh tan lòng đỏ và chiên trong chảo, để nguội cắt sợi."
+	},
+	{
+		"id" : 13,
+		"courseID" : 3,
+		"rank" : 5,
+		"content" : "Cho chảo dầu lên bếp, xào hành tây và ớt chuông, sau đó cho miến vào xào cho miến tơi. Nêm 1 muỗng canh dầu hào, ½ muỗng hạt nêm, trộn đều, cho trứng vào, sau cùng cho tiêu xay vào và tắt bếp."
+	},
+	{
+		"id" : 14,
+		"courseID" : 3,
+		"rank" : 6,
+		"content" : "Cho miến ra dĩa hoặc chén, để cua lột lên trên. Dùng kèm với tương ớt."
+	},
+	{
+		"id" : 15,
+		"courseID" : 4,
+		"rank" : 1,
+		"content" : "Thịt chân giò heo mua về rửa sạch, chặt khúc vừa ăn, cho ra đĩa."
+	},
+	{
+		"id" : 16,
+		"courseID" : 4,
+		"rank" : 2,
+		"content" : "Cho thịt chân giò heo vào nồi áp xuất cùng 500ml nước, hầm khoảng 15 phút."
+	},
+	{
+		"id" : 17,
+		"courseID" : 4,
+		"rank" : 3,
+		"content" : "Tiếp theo, cho đương quy, câu kỷ tử, táo tàu, hạt sen tươi, 1 muỗng cà phê muối, 1 muỗng cà phê hạt nêm vào, hầm thêm 10 phút."
+	},
+	{
+		"id" : 18,
+		"courseID" : 4,
+		"rank" : 4,
+		"content" : "Múc canh ra tô, để hơi nguội và ăn cùng với cơm nhé!"
+	},
+	{
+		"id" : 19,
+		"courseID" : 5,
+		"rank" : 1,
+		"content" : "Chuẩn bị nguyên liệu. Bao tử mua về rửa sạch, chà xát bằng muối và rửa lại với nước nhiều lần."
+	},
+	{
+		"id" : 20,
+		"courseID" : 5,
+		"rank" : 2,
+		"content" : "Gừng gọt vỏ, cắt lát, hành lá rửa sạch, cắt khúc."
+	},
+	{
+		"id" : 21,
+		"courseID" : 5,
+		"rank" : 3,
+		"content" : "Đun sôi 1 nồi nước, thêm hành lá, gừng, bao tử vào, đun trong 10 phút. Vớt bao tử ra, cắt thành các miếng vừa ăn."
+	},
+	{
+		"id" : 22,
+		"courseID" : 5,
+		"rank" : 4,
+		"content" : "Cho khoảng 800ml nước vào trong nồi, rồi cho bạch chỉ, mứt táo và bao tử heo vào. Đun liu riu trong 30-45 phút. Sau đó thêm 5g muối, 1/2 muỗng cà phê tiêu, nấu trong 5 phút thì tắt bếp."
+	},
+	{
+		"id" : 23,
+		"courseID" : 5,
+		"rank" : 5,
+		"content" : "Múc bao tử hầm ra chén và thưởng thức ngay khi đang còn nóng nhé!"
+	}
+]

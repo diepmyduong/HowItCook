@@ -1,0 +1,37 @@
+[
+	{
+		"id" : 1,
+		"title" : "Canh cá củ cải",
+		"description" : "Củ cải có hàm lượng vitamin C cao gấp 6-10 lần lê và táo. Vì thế bạn nên ăn củ cải nhiều hơn. Món canh cá chép nấu củ cải vừa đơn giản, dễ nấu lại rất ngon miệng, chị em hãy thử nhé!",
+		"image" : "course_1",
+		"categoryId" : 1
+	},
+	{
+		"id" : 2,
+		"title" : "Canh cải thảo kiểu Hàn",
+		"description" : "Món canh cải thảo nóng hổi thêm vị cay nhẹ sẽ khiến bữa cơm thêm ấm áp, dễ chịu. Cùng chế biến món ăn Hàn đổi vị cho ẩm thực gia đình bạn nhé!",
+		"image" : "course_2",
+		"categoryId" : 1
+	},
+	{
+		"id" : 3,
+		"title" : "Miến xào cua lột",
+		"description" : "Cua lột với lớp vỏ mềm, có thể ăn được, thêm phần thịt bên trong mềm ngọt như sữa rất lý tưởng để chế biến thành món ăn bổ dưỡng.",
+		"image" : "course_3",
+		"categoryId" : 2
+	},
+	{
+		"id" : 4,
+		"title" : "Chân giò hầm thuốc bắc",
+		"description" : "Chân giò hầm thuốc bắc là món ăn ngon, bổ dưỡng, rất tốt cho những người bị bệnh dạ dày, phụ nữa sau khi sinh. Miếng thịt chân giò mềm, thấm đậm gia vị thuốc bắc. Cùng học cách làm nhé!",
+		"image" : "course_4",
+		"categoryId" : 3
+	},
+	{
+		"id" : 5,
+		"title" : "Bao tử heo hầm",
+		"description" : "Món bao tử (dạ dày) hầm thảo quả vừa ngon vừa ấm nóng, thích hợp với những ngày se lạnh. Vào bếp trổ tài với món ngon này nhé!",
+		"image" : "course_5",
+		"categoryId" : 3
+	}
+]
