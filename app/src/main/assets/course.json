@@ -33,5 +33,180 @@
 		"description" : "Món bao tử (dạ dày) hầm thảo quả vừa ngon vừa ấm nóng, thích hợp với những ngày se lạnh. Vào bếp trổ tài với món ngon này nhé!",
 		"image" : "course_5",
 		"categoryId" : 3
+	},
+	{
+		"id" : 6,
+		"title" : "Khoai tây chiên mặn",
+		"description" : "Khoai tây chiên mặn là món ăn đơn giản, dễ làm, thích hợp trong những ngày mưa, rảnh rỗi. Khi ăn có vị giòn, mềm y như ngoài nhà hàng. Bạn đã sẵn sàng làm món này để mời cả nhà thưởng thức chưa?",
+		"image" : "course_6",
+		"categoryId" : 4
+	},
+	{
+		"id" : 7,
+		"title" : "Cá hồi chiên mật ong",
+		"description" : "Cá hồi chiên mật ong với từng miếng thịt cá thơm bùi bùi đặc trưng của cá hồi hòa quyện với vị ngọt dịu của mật ong. Món ăn đơn giản nhưng chứa nhiều dưỡng chất và rất là đưa cơm.",
+		"image" : "course_7",
+		"categoryId" : 4
+	},
+	{
+		"id" : 8,
+		"title" : "Bánh bí đỏ chiên xù",
+		"description" : "Bánh bí đỏ chiên chắc chắn sẽ là một món ăn vặt yêu thích của bất cứ ai đã từng được thử qua. Bánh có vị bùi, thơm, ngọt tự nhiên của bí đỏ và lớp vỏ giòn rụm mê người! Còn chờ gì mà không thử làm nào, vừa dễ mà kết quả thì quá tuyệt vời luôn!",
+		"image" : "course_8",
+		"categoryId" : 4
+	},
+	{
+		"id" : 9,
+		"title" : "Nem cá rô phi chiên xù",
+		"description" : "Món nem cá có lớp vỏ giòn rụm, bên trong lại rất mềm và thơm. Cách chế biến theo cách này khiến vị tanh không còn nữa, thay vào đó là vị thơm của thì là, của nấm hương và béo ngậy.",
+		"image" : "course_9",
+		"categoryId" : 4
+	},
+	{
+		"id" : 10,
+		"title" : "Gà rang muối sả",
+		"description" : "Những cánh gà chiên vàng rộm, được áo xung quanh lớp muối giòn tan, thơm mùi gừng, sả. Thêm nữa, nhờ những cọng sả chiên vàng như rơm, có vị mặn mòi, khiến món ăn trở nên \"bắt cơm\" hơn bao giờ hết.",
+		"image" : "course_10",
+		"categoryId" : 5
+	},
+	{
+		"id" : 11,
+		"title" : "Cơm rang trứng tôm",
+		"description" : "Cơm rang có thể được kết hợp với rất nhiều loại nguyên liệu. Hôm nay mình tận dụng tôm và trứng sẵn có trong tủ lạnh. Vừa thơm ngon, đậm đà lại rất đưa cơm.",
+		"image" : "course_11",
+		"categoryId" : 5
+	},
+	{
+		"id" : 12,
+		"title" : "Tôm rang bơ tỏi",
+		"description" : "Tôm chắc, ngọt thịt thơm lừng hương bơ ngon lắm! Bữa cơm gia đình sẽ trở nên đầm ấm và vui hơn rất nhiều với món tôm rang bơ tỏi này đấy.",
+		"image" : "course_12",
+		"categoryId" : 5
+	},
+	{
+		"id" : 13,
+		"title" : "Cơm rang kim chi",
+		"description" : "Với nguyên liệu có chút mới lạ, món cơm rang bình thường bỗng trở nên bắt mắt, hấp dẫn hơn. Nhất là khi bạn kết hợp với kim chi cải thảo.",
+		"image" : "course_13",
+		"categoryId" : 5
+	},
+	{
+		"id" : 14,
+		"title" : "xôi nướng cuộn lạp xưởng",
+		"description" : "Thỉnh thoảng chán cơm thì bạn có thể đổi khẩu vị với món xôi nướng cuộn lạp xưởng với chả bông này. Xôi thơ dẻo, ăn cùng chà bông, lạp xưởng vị đậm đà mà không ngấy.",
+		"image" : "course_14",
+		"categoryId" : 6
+	},
+	{
+		"id" : 15,
+		"title" : "Bánh cuộn vị trà xanh",
+		"description" : "Bánh cuộn vị trà xanh thơm lừng hương trà với lớp nhân kem béo mềm là một kết hợp lý tưởng để chiêu đãi cả nhà như một món tráng miệng hay món ăn nhẹ buổi xế chiều cùng ly trà nóng.",
+		"image" : "course_15",
+		"categoryId" : 6
+	},
+	{
+		"id" : 16,
+		"title" : "Cơm chiên kimchi cay",
+		"description" : "Cơm chiên kimchi cay cay ngon tuyệt. Món cơm chiên này vừa dễ làm mà lại cực hợp để ăn trong những ngày lạnh hoặc mưa đấy! Bạn có thể ăn kèm với rau luộc sẽ hấp dẫn và ngon miệng hơn nhé!",
+		"image" : "course_16",
+		"categoryId" : 7
+	},
+	{
+		"id" : 17,
+		"title" : "Cơm chiên chay",
+		"description" : "Cùng nhau làm món cơm chiên chay nogn lành với nguyên liệu rau củ đơn giản. Chỉ trong khoảng 10 phút bạn đã có món cơm chiên chay hấp dẫn để thưởng thức rồi.",
+		"image" : "course_17",
+		"categoryId" : 7
+	},
+	{
+		"id" : 18,
+		"title" : "Xôi cốm dẹp đậu xanh",
+		"description" : "Vị của xôi cốm dẹp đậu xanh quen mà rất lạ. Nó vừa giống với xôi vò, vừa lẫn vị xôi dừa, lại vừa thơm và bùi như bánh đậu xanh, ngòn ngọt, thanh thanh. Có nhiều cách làm, Cooky hướng dẫn bạn thêm một cách mới nhé!",
+		"image" : "course_18",
+		"categoryId" : 7
+	},
+	{
+		"id" : 19,
+		"title" : "Cơm rang trứng",
+		"description" : "Tuy đơn giản nhưng món cơm rang trứng vẫn được rất nhiều người yêu thích và ăn thường xuyên vào bữa sáng như một cách giải quyết cơm nguội cực hiệu quả. Mùi vị món ăn khỏi phải chê luôn.",
+		"image" : "course_19",
+		"categoryId" : 7
+	},
+	{
+		"id" : 20,
+		"title" : "Cơm Halloween",
+		"description" : "Halloween sắp đến rồi, bạn đã nghĩ ra món ăn gì để chiêu đãi cả nhà thưởng thức chưa? Cooky sẽ gợi ý cho bạn món cơm Halloween nè, cơm mềm, trang trí đẹp mắt, đậm đà, nhìn là chỉ muốn thưởng thức ngay.",
+		"image" : "course_20",
+		"categoryId" : 7
+	},
+	{
+		"id" : 21,
+		"title" : "Bánh trứng chiên giòn",
+		"description" : "Bánh trứng chiên giòn là món ăn cực thích với lớp bánh giòn rụm, mỏng tan, mặn mặn không hề ngấy nhé! Cách làm đơn giản, chỉ mất 30 phút làm nên món ăn này thôi. Bạn có thể chấm cùng tương ớt nếu muốn ăn cay.",
+		"image" : "course_21",
+		"categoryId" : 8
+	},
+	{
+		"id" : 22,
+		"title" : "Bánh khoai mì chiên",
+		"description" : "Khoai mì (sắn) làm thành bánh giòn giòn, thơm thơm, ăn cực thích. Mùa mưa mà được thưởng thức món ăn này lúc rảnh rỗi thì hết chê. Sẵn có khoai mì, bạn trổ tài theo công thức thử nhé!",
+		"image" : "course_22",
+		"categoryId" : 8
+	},
+	{
+		"id" : 23,
+		"title" : "Bánh quy giáng sinh",
+		"description" : "Mỗi dịp lễ Noel đến là ai nấy cũng đều náo nức chuẩn bị quà cho nhau. Năm nay hãy thử bắt tay vào làm một món quà đặc biệt cho bạn bè mình nhé, đó là chiếc bánh quy xinh xắn ngập tràn không khí nhộn nhịp ngày Giáng Sinh. Hẳn là mọi người sẽ rất ngạc nhiên và hạnh phúc khi nhận món quà từ bạn đấy!",
+		"image" : "course_23",
+		"categoryId" : 8
+	},
+	{
+		"id" : 24,
+		"title" : "Bánh mì kẹp với phô mai",
+		"description" : "Bánh sandwich từ lâu đã trở thành món điểm tâm sáng quen thuộc của nhiều gia đình. Chỉ cần khoảng 5 phút là bạn có ngay bữa sáng thơm phức với món bánh sandwich kẹp phô mai cực kì thơm, béo hấp dẫn và giàu dinh dưỡng để thưởng thức rồi đấy!",
+		"image" : "course_24",
+		"categoryId" : 8
+	},
+	{
+		"id" : 25,
+		"title" : "Bánh cầu vòng không cần lò nướng",
+		"description" : "Crepe là một loại bánh ngọt của Pháp nhưng trong quá trình du nhập vào Việt Nam, nó đã được biến tấu và cách tân thành nhiều loại khác nhau với đa dạng màu sắc cũng như hương vị. Trong số đó phải nhắc đến chiếc bánh crepe cầu vồng rực rỡ. Chỉ cần một chút khéo léo, cùng với những nguyên liệu quen thuộc, dễ tìm, bạn đã có thể tạo nên một món bánh lung linh sắc màu, thắp sáng cho cả căn bếp vào những ngày đông sương mờ.",
+		"image" : "course_25",
+		"categoryId" : 8
+	},
+	{
+		"id" : 26,
+		"title" : "Bánh trôi nhân mặn",
+		"description" : "Bánh trôi mặn là một biến tấu khá mới lạ của bánh trôi nhân ngọt thông thường. Nếu bánh trôi ngọt thường chỉ có nhân đường phèn bên trong, thì công thức bánh trôi nhân mặn này lại có cả thịt lợn xay, nấm hương và lá hẹ. Cách làm vẫn là thả bánh vào nồi nước, đun sôi và chờ bánh nổi lên mặt nước thì vớt ra.",
+		"image" : "course_26",
+		"categoryId" : 8
+	},
+	{
+		"id" : 27,
+		"title" : "Chè củ sen trà lài",
+		"description" : "Chè củ sen bổ lượng giúp bạn thanh nhiệt, đẹp da những ngày hè. Sen và Lài là hai loại nguyên liệu rất tinh tế thường được dùng trong Cung Đình ngày xưa. Cả hai đều có vị rất thanh tao. Khi nấu chè ăn mát và không ngán.",
+		"image" : "course_27",
+		"categoryId" : 9
+	},
+	{
+		"id" : 28,
+		"title" : "Chè khúc bạch vani",
+		"description" : "Món chè thanh tao, ngon mát này làm vô cùng đơn giản và có phần kinh tế hơn ăn ngoài hàng nhé.",
+		"image" : "course_28",
+		"categoryId" : 9
+	},
+	{
+		"id" : 29,
+		"title" : "Chè bí đỏ hương táo",
+		"description" : "Bí đỏ có tác dụng cải thiện thị giác, tăng cường trí nhớ, giảm đau đầu, điều hòa hệ miễn dịch đó. Vì vậy hãy nấu chè bí đỏ để sức khỏe các thành viên ngày càng tốt hơn nhé!",
+		"image" : "course_29",
+		"categoryId" : 9
+	},
+	{
+		"id" : 30,
+		"title" : "Chè bí đỏ bột báng nấu sữa tươi",
+		"description" : "Ngày đông, những món chè nóng lại càng được lòng những tín đồ hảo ngọt. Chè bí đỏ bột báng nấu sữa tươi ngọt lịm, thơm béo, càng ăn càng đã. Món chè ngon này chỉ mất khoảng 30 phút thôi, nên bạn tranh thủ nấu để cùng thưởng thức với cả nhà nhé!",
+		"image" : "course_30",
+		"categoryId" : 9
 	}
 ]

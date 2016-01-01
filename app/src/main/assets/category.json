@@ -26,27 +26,22 @@
 	},
 	{
 		"id" : 6,
-		"title" : "Rang",
+		"title" : "Cuốn",
 		"image" : "categories_6"
 	},
 	{
 		"id" : 7,
-		"title" : "Cuốn",
+		"title" : "Cơm",
 		"image" : "categories_7"
 	},
 	{
 		"id" : 8,
-		"title" : "Cơm",
+		"title" : "Bánh",
 		"image" : "categories_8"
 	},
 	{
 		"id" : 9,
-		"title" : "Bánh",
-		"image" : "categories_9"
-	},
-	{
-		"id" : 10,
 		"title" : "Chè",
-		"image" : "categories_10"
-	},
+		"image" : "categories_9"
+	}
 ]

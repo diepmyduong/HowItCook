@@ -136,5 +136,785 @@
 		"courseID" : 5,
 		"rank" : 5,
 		"content" : "Múc bao tử hầm ra chén và thưởng thức ngay khi đang còn nóng nhé!"
+	},
+	{
+		"id" : 24,
+		"courseID" : 6,
+		"rank" : 1,
+		"content" : "Khoai tây gọt vỏ, rửa sạch, cắt thành thanh dài, để ráo."
+	},
+	{
+		"id" : 25,
+		"courseID" : 6,
+		"rank" : 2,
+		"content" : "Ngâm khoai tây trong nước có pha 3 muỗng cà phê muối khoảng 3 phút, vớt khoai tây ra rổ."
+	},
+	{
+		"id" : 26,
+		"courseID" : 6,
+		"rank" : 3,
+		"content" : "Làm nóng dầu ăn trong chảo, cho khoai tây vào, chiên vàng giòn."
+	},
+	{
+		"id" : 27,
+		"courseID" : 6,
+		"rank" : 4,
+		"content" : "Cho khoai tây đã chiên ra đĩa, lớp khoai giòn, đậm đà ăn cực thích."
+	},
+	{
+		"id" : 28,
+		"courseID" : 7,
+		"rank" : 1,
+		"content" : "Cắt cá hồi thành lát dày rồi cho vào chén, thêm hành cắt nhỏ, gừng cắt sợi và 1/4 muỗng cà phê muối vào. Vắt 1/2 trái chanh vàng vào."
+	},
+	{
+		"id" : 29,
+		"courseID" : 7,
+		"rank" : 2,
+		"content" : "Hòa 1 muỗng canh bột bắp với 2 muỗng canh nước lọc rồi cho vào chén cá hồi, trộn đều, để yên trong 10 phút cho ngấm."
+	},
+	{
+		"id" : 30,
+		"courseID" : 7,
+		"rank" : 3,
+		"content" : "Đun nóng 50ml dầu ăn, cho cá hồi đã ướp vào chiên với lửa nhỏ. Chiên được khoảng 2 phút, thấy thịt cá bắt đầu săn lại và hơi đổi màu thì tắt bếp."
+	},
+	{
+		"id" : 31,
+		"courseID" : 7,
+		"rank" : 4,
+		"content" : "Bày cá ra đĩa với dưa leo rồi quét một lớp mật ong thật mỏng lên trên."
+	},
+	{
+		"id" : 32,
+		"courseID" : 8,
+		"rank" : 1,
+		"content" : "Bí đỏ gọt vỏ, cắt từng lát vuông nhỏ rồi đem luộc trong khoảng 20 phút cho mềm nhừ. Sau đó, dùng muỗng nghiền mịn bí."
+	},
+	{
+		"id" : 33,
+		"courseID" : 8,
+		"rank" : 2,
+		"content" : "Cho bí đỏ vào trộn với 150g bột gạo và 1 muỗng canh bơ đun chảy cho thật đều tay."
+	},
+	{
+		"id" : 34,
+		"courseID" : 8,
+		"rank" : 3,
+		"content" : "Nặn bột thành đoạn dài, sau đó cắt bột thành từng khúc dày khoảng 2 cm. Dùng tay nhấn dẹt miếng bột rồi xếp vào nồi hấp trong khoảng 5-10 phút."
+	},
+	{
+		"id" : 35,
+		"courseID" : 8,
+		"rank" : 4,
+		"content" : "Bánh bí hấp chín thì đem ra lăn qua bột xù."
+	},
+	{
+		"id" : 36,
+		"courseID" : 8,
+		"rank" : 5,
+		"content" : "Đun nóng 500ml dầu ăn rồi cho các miếng bí vào chiên chín đều thì vớt ra để ráo dầu là có thể dùng."
+	},
+	{
+		"id" : 37,
+		"courseID" : 9,
+		"rank" : 1,
+		"content" : "Cá rửa với muối hột cho sạch nhớt rồi để ráo nước."
+	},
+	{
+		"id" : 38,
+		"courseID" : 9,
+		"rank" : 2,
+		"content" : "Gừng băm nhỏ. Thì là cắt nhỏ. Nấm hương và nấm mèo ngâm nở bỏ chân băm nhỏ."
+	},
+	{
+		"id" : 39,
+		"courseID" : 9,
+		"rank" : 3,
+		"content" : "Đánh tan trứng gà."
+	},
+	{
+		"id" : 40,
+		"courseID" : 9,
+		"rank" : 4,
+		"content" : "Ướp cá với 1/2 muỗng canh hạt nêm, 15ml dầu ăn, gừng và thì là trong khoảng 5 phút."
+	},
+	{
+		"id" : 41,
+		"courseID" : 9,
+		"rank" : 5,
+		"content" : "Trộn thịt bằm với nấm hương, nấm mèo vào 1/2 muỗng cà phê tiêu rồi để yên trong khoảng 20 phút."
+	},
+	{
+		"id" : 42,
+		"courseID" : 9,
+		"rank" : 6,
+		"content" : "Trải cá ra thớt, phần da quay lên trên rồi cho nhân thịt lên trên, cuộn chặt tay lại."
+	},
+	{
+		"id" : 43,
+		"courseID" : 9,
+		"rank" : 7,
+		"content" : "Lăn cá qua bột chiên giòn, sau đó nhúng qua trứng rồi lại tiếp tục lăn qua bột chiên xù. Đặt cá vào tủ lạnh ít nhất 30 phút trước khi chiên."
+	},
+	{
+		"id" : 44,
+		"courseID" : 9,
+		"rank" : 8,
+		"content" : "Đun nóng 100ml dầu ăn rồi cho các cuộn cá vào chiên chín vàng đều thì vớt ra để ráo dầu."
+	},
+	{
+		"id" : 45,
+		"courseID" : 9,
+		"rank" : 9,
+		"content" : "Bày trí đẹp mắt và thưởng thức với tương ớt hoặc thức chấm khác tùy thích."
+	},
+	{
+		"id" : 46,
+		"courseID" : 5,
+		"rank" : 1,
+		"content" : "Cánh gà rửa sạch, cắt làm đôi, ướp với 1/2 muỗng cà phê muối trong khoảng 15 phút cho thấm."
+	},
+	{
+		"id" : 47,
+		"courseID" : 10,
+		"rank" : 1,
+		"content" : "Gừng, riềng gọt vỏ, cắt sợi nhuyễn. Lá chanh cắt nhỏ. Sả tươi cắt bỏ phần đuôi, phần đầu xé nhỏ, ướp 1/2 muỗng cà phê muối. Tỏi băm nhuyễn."
+	},
+	{
+		"id" : 48,
+		"courseID" : 10,
+		"rank" : 2,
+		"content" : "Cho gà vào một túi nylon, rắc bột chiên giòn vào, cột miệng túi lại lắc đều. Cách này giúp bột áo đều lên gà mà không bị dày quá ăn mau ngán."
+	},
+	{
+		"id" : 49,
+		"courseID" : 10,
+		"rank" : 3,
+		"content" : "Đun sôi 100ml dầu ăn, cho cánh gà vào chiên vàng. Gà chín, vớt ra giấy thấm dầu. Sao đó, cho sả sợi vào chiên vàng giòn thì vớt ra, để ráo dầu."
+	},
+	{
+		"id" : 50,
+		"courseID" : 10,
+		"rank" : 4,
+		"content" : "Chuẩn bị một chén gồm 2 muỗng canh bột chiên xù, 1 muỗng cà phê muối, 1 muỗng cà phê đường, 1/2 muỗng cà phê bột ngọt."
+	},
+	{
+		"id" : 51,
+		"courseID" : 10,
+		"rank" : 5,
+		"content" : "Trong một chảo khác, đun nóng 5ml dầu ăn rồi cho lá chanh, riềng, gừng, tỏi vào rang vàng. Tiếp đến, cho chén bột chiên xù các gia vị đã trộn vào rang tiếp. Khi muối đã ngả màu vàng, thì cho gà, sả vừa mới chiên vàng vào, trộn đều cho muối thấm lên miếng gà."
+	},
+	{
+		"id" : 52,
+		"courseID" : 10,
+		"rank" : 6,
+		"content" : "Bày trí đẹp mắt rồi thưởng thức."
+	},
+	{
+		"id" : 53,
+		"courseID" : 11,
+		"rank" : 1,
+		"content" : "Tôm bóc vỏ, lấy chỉ đen. Cho tôm và 15ml rượu vào chén, dùng tay bóp rửa tôm cho sạch sau đó cắt khúc khoảng 1,3cm. Rau diếp, hành lá cắt nhỏ."
+	},
+	{
+		"id" : 54,
+		"courseID" : 11,
+		"rank" : 2,
+		"content" : "Đập trứng vào chén và đánh đều trứng. Đun nóng chảo với 30ml dầu ăn rồi cho trứng vào trộn đều, khi trứng gần chín thì cho ra đĩa."
+	},
+	{
+		"id" : 55,
+		"courseID" : 11,
+		"rank" : 3,
+		"content" : "Vẫn chiếc chảo vừa chiên trứng cho tôm vào và thêm 1/2 muỗng cà phê muối. Tôm xào sơ qua rồi trút ra đĩa. Thêm 15ml dầu mè hành lá vào chảo đảo qua."
+	},
+	{
+		"id" : 56,
+		"courseID" : 11,
+		"rank" : 4,
+		"content" : "Thêm cơm vào chảo đảo tơi cơm, khi cơm được trộn đều trong chảo thì cho trứng và tôm vào đảo chung. Thêm 1/2 muỗng cà phê tiêu và 5ml nước tương. Đảo đều cho tới khi các nguyên liệu chín và ngấm gia vị thì tắt bếp."
+	},
+	{
+		"id" : 57,
+		"courseID" : 11,
+		"rank" : 5,
+		"content" : "Bạn hãy dành thời gian để chế biến món cơm rang tôm trứng này cho bữa sáng nhé!"
+	},
+	{
+		"id" : 58,
+		"courseID" : 12,
+		"rank" : 1,
+		"content" : "Tôm đất mua về bóc vỏ, rửa sạch rồi để ráo."
+	},
+	{
+		"id" : 59,
+		"courseID" : 12,
+		"rank" : 2,
+		"content" : "Ngâm rửa sạch thì là rồi cắt nhỏ. Với tỏi và hành tím thì cũng băm nhỏ."
+	},
+	{
+		"id" : 60,
+		"courseID" : 12,
+		"rank" : 3,
+		"content" : "Để chảo nóng rồi cho 50g bơ vào. Thêm hành, tỏi và thì là, phi thơm."
+	},
+	{
+		"id" : 61,
+		"courseID" : 12,
+		"rank" : 4,
+		"content" : "Sau đó, cho tôm vào đảo đều. Khi tôm chín, nêm 1 muỗng cà phê nước mắm, 1/2 muỗng cà phê tiêu cho vừa ăn rồi đảo thêm khoảng 1 phút thì tắt bếp."
+	},
+	{
+		"id" : 62,
+		"courseID" : 12,
+		"rank" : 5,
+		"content" : "Múc tô rang bơ tỏi ra chén, ăn cùng cơm nóng. Một món ăn rất nhanh gọn mà lại dễ ăn."
+	},
+	{
+		"id" : 63,
+		"courseID" : 13,
+		"rank" : 1,
+		"content" : "Kim chi cải thảo cắt nhỏ, cho ra đĩa. Rau cần tây, hành lá rửa sạch, cắt nhỏ."
+	},
+	{
+		"id" : 64,
+		"courseID" : 13,
+		"rank" : 2,
+		"content" : "Thịt nguội cắt nhỏ, nấm hương ngâm nước cho mềm, cắt nhỏ. Hành tây bóc vỏ, cắt mỏng."
+	},
+	{
+		"id" : 65,
+		"courseID" : 13,
+		"rank" : 3,
+		"content" : "Cho cơm vào tô, đặt trong lò viba quay khoảng 5 phút cho cơm nóng như vậy sẽ ngon hơn."
+	},
+	{
+		"id" : 66,
+		"courseID" : 13,
+		"rank" : 4,
+		"content" : "Làm nóng 2 muỗng canh dầu ăn trong chảo, cho hành tây vào, xào khoảng 1 phút."
+	},
+	{
+		"id" : 67,
+		"courseID" : 13,
+		"rank" : 5,
+		"content" : "Tiếp theo, cho lần lượt rau cần tây, thịt nguội, nấm hương, hành lá, kim chi cải thảo vào, đảo đều. Nêm gia vị 1 muỗng cà phê muối, 1/2 muỗng cà phê tiêu, 1 muỗng canh nước tương cho vừa ăn, xào khoảng 5 phút."
+	},
+	{
+		"id" : 68,
+		"courseID" : 13,
+		"rank" : 6,
+		"content" : "Cuối cùng, cho cơm vào, đảo đều thêm 5 phút là được."
+	},
+	{
+		"id" : 69,
+		"courseID" : 13,
+		"rank" : 7,
+		"content" : "Tắt bếp, để nguội. Nặn cơm thành những miếng nhỏ, hình vuông, cho ra đĩa và thưởng thức!"
+	},
+	{
+		"id" : 70,
+		"courseID" : 14,
+		"rank" : 1,
+		"content" : "Nếp vo sạch, cho thêm 1 thìa nhỏ muối ngâm khoảng 2 tiếng thì vớt ra để ráo."
+	},
+	{
+		"id" : 71,
+		"courseID" : 14,
+		"rank" : 2,
+		"content" : "Lạp xưởng luộc qua rồi chiên lên. Hành lá cắt nhỏ"
+	},
+	{
+		"id" : 72,
+		"courseID" : 14,
+		"rank" : 3,
+		"content" : "Trộn hành lá với 1/8 muỗng cà phê muối và 1/8 muỗng cà phê đường đường. Đun 1 muỗng canh dầu ăn thật nóng rồi cho vào chén hành, trộn đều làm mỡ hành."
+	},
+	{
+		"id" : 73,
+		"courseID" : 14,
+		"rank" : 4,
+		"content" : "Đun nước thật sôi, cho nếp vào xửng hấp, hấp 15 phút xới đều, chan nước cốt dừa, đảo đều, thêm lá dứa cho thơm. Hấp thêm 10 phút chan nước cốt dừa lần 2, xới đều, nấu thêm 5-7 phút cho chín hẳn."
+	},
+	{
+		"id" : 74,
+		"courseID" : 14,
+		"rank" : 5,
+		"content" : "Cắt tấm giấy bạc lớn hơn cây lạp xưởng, dàn xôi ra, rưới đều mỡ hành. Kế đến là lớp mỏng chà bông, cuối cùng cho lạp xưởng vào giữa. Cuộn chặt tay giấy bạc bọc bên ngoài. Để nguội rồi đem nướng ở 200 độ C trong khoảng 10 phút."
+	},
+	{
+		"id" : 75,
+		"courseID" : 14,
+		"rank" : 6,
+		"content" : "Xôi nướng xong cắt khoanh mỏng, ăn kèm với đồ chua tùy thích."
+	},
+	{
+		"id" : 76,
+		"courseID" : 15,
+		"rank" : 1,
+		"content" : "Cho 80ml nước nóng, 8g bột trà xanh, 50ml dầu ăn vào thau lớn, khuấy đều. Sau đó thêm rây 115g bột mì, 16g bột bắp vào."
+	},
+	{
+		"id" : 77,
+		"courseID" : 15,
+		"rank" : 2,
+		"content" : "Tách riêng lòng đỏ và lòng trắng trứng. Cho lòng đỏ trứng vào, đánh đều. Chia đường làm 3 lần cho vào chung với lòng trắng trứng, đánh đến khi hỗn hợp bông mịn."
+	},
+	{
+		"id" : 78,
+		"courseID" : 15,
+		"rank" : 3,
+		"content" : "Chia hỗn hợp lòng trắng trứng làm 3 lần để cho vào chung với hỗn hợp trà xanh, vừa cho vừa đánh đều."
+	},
+	{
+		"id" : 79,
+		"courseID" : 15,
+		"rank" : 4,
+		"content" : "Đổ hỗn hợp vào khuôn đã được lót sẵn với lớp giấy nến, dàn đều phần bề mặt cho phẳng. Rồi cho khuôn vào lò nướng đã được làm nóng ở nhiệt độ 180 độ C, nướng trong 20 phút thì lấy bánh ra, để nguội."
+	},
+	{
+		"id" : 80,
+		"courseID" : 15,
+		"rank" : 5,
+		"content" : "Cho sữa chua, kem phô mai và đường cát trắng vào thau lớn, đặt lên bếp chưng cách thủy vừa đun vừa khuấy. Sau đó cho lá gelatin đã ngâm mềm vào, đánh đều cho tan rồi tắt bếp, để nguội."
+	},
+	{
+		"id" : 81,
+		"courseID" : 15,
+		"rank" : 6,
+		"content" : "Đánh bông 200g kem whipping, rồi đổ hỗn hợp phía trên vào, trộn đều. Lấy bánh ra khỏi khuôn bằng cách nhấc nguyên cả bánh cùng giấy nến trong khuôn rồi cắt men theo các cạnh bánh. Đặt một lớp giấy nến khác lên bề mặt, lật ngược bánh lại rồi bóc bỏ lớp giấy nến bên dưới."
+	},
+	{
+		"id" : 82,
+		"courseID" : 15,
+		"rank" : 7,
+		"content" : "Quết kem lên khắp bề mặt bánh, ở phần đầu và đuôi thì quết mỏng hơn một chút, cuộn tròn lại rồi giữ lạnh."
+	},
+	{
+		"id" : 83,
+		"courseID" : 15,
+		"rank" : 8,
+		"content" : "Khi ăn lấy ra, cắt bánh thành những lát dày khoảng 2cm. Làm món tráng miệng hay món ăn nhẹ buổi xế chiều cùng ly trà nóng thì còn gì bằng."
+	},
+	{
+		"id" : 84,
+		"courseID" : 16,
+		"rank" : 1,
+		"content" : "Cắt nhỏ kimchi và hành lá. Cắt nhỏ thịt heo, ướp với 2 muỗng canh nước tương, 1/4 muỗng cà phê muối, 1 muỗng cà phê hạt nêm, 1 muỗng cà phê dầu mè và 1/4 muỗng cà phê tiêu trong khoảng 15 phút. Trứng đập cho vào chén đánh tan với 1/4 muỗng cà phê muối rồi đep hấp chín."
+	},
+	{
+		"id" : 85,
+		"courseID" : 16,
+		"rank" : 2,
+		"content" : "Phi thơm hành lá với 1 muỗng canh dầu ăn rồi cho thịt vào xào. Đảo đều đến khi thịt chín vừa thì cho ra tô."
+	},
+	{
+		"id" : 86,
+		"courseID" : 16,
+		"rank" : 3,
+		"content" : "Đun nóng 1 muỗng canh dầu ăn trong chảo khác rồi cho cơm và kim chi vào đảo đều."
+	},
+	{
+		"id" : 87,
+		"courseID" : 16,
+		"rank" : 4,
+		"content" : "Dầm nát trứng hấp rồi cho vào chảo cơm cùng với thịt xào. Tiếp tục đảo đều tay cho tới khi hạt cơm săn lại thì tắt bếp."
+	},
+	{
+		"id" : 88,
+		"courseID" : 16,
+		"rank" : 5,
+		"content" : "Cho cơm ra tô và thưởng thức. Có thể ăn kèm với rau luộc."
+	},
+	{
+		"id" : 89,
+		"courseID" : 17,
+		"rank" : 1,
+		"content" : "Rửa nấm hương tươi và ớt chuông rồi cắt nhỏ vừa ăn. Đậu Hà Lan chần qua nước sôi, để ráo."
+	},
+	{
+		"id" : 90,
+		"courseID" : 17,
+		"rank" : 2,
+		"content" : "Làm nóng 30ml dầu ăn trong chảo, thêm cơm nguội vào, đảo đều cho cơm tơi ra."
+	},
+	{
+		"id" : 91,
+		"courseID" : 17,
+		"rank" : 3,
+		"content" : "Thêm nấm hương tươi, ớt đỏ và đậu Hà Lan vào, chiên trong 3-5 phút nữa hoặc cho đến khi các nguyên liệu mềm là được. Bày trí ra đĩa và thưởng thức với nước tương."
+	},
+	{
+		"id" : 92,
+		"courseID" : 18,
+		"rank" : 1,
+		"content" : "Đậu xanh không vỏ ngâm nước khoảng 3 giờ. Vớt đậu xanh ra, thêm 1/2 muỗng cà phê muối vào, trộn đều, cho vào xửng hấp, hấp chín."
+	},
+	{
+		"id" : 93,
+		"courseID" : 18,
+		"rank" : 2,
+		"content" : "Cho đậu xanh không vỏ vào cối, giã nhuyễn, mịn."
+	},
+	{
+		"id" : 94,
+		"courseID" : 18,
+		"rank" : 3,
+		"content" : "Cốm dẹp ngâm nước ấm khoảng 10 phút. Vớt cốm dẹp ra, thêm 2 muỗng canh dầu ăn vào, trộn đều, cho vào xửng hấp, hấp chín."
+	},
+	{
+		"id" : 95,
+		"courseID" : 18,
+		"rank" : 4,
+		"content" : "Cho đường trắng vào cốm dẹp, trộn đều. Tiếp theo, cho đậu xanh không vỏ vào, trộn cùng."
+	},
+	{
+		"id" : 96,
+		"courseID" : 18,
+		"rank" : 5,
+		"content" : "Cho xôi ra đĩa, rắc dừa nạo lên trên và nặn xôi thành hình tùy thích!"
+	},
+	{
+		"id" : 97,
+		"courseID" : 19,
+		"rank" : 1,
+		"content" : "Hành lá rửa sạch, cắt nhỏ. Gừng gọt vỏ, băm nhuyễn."
+	},
+	{
+		"id" : 98,
+		"courseID" : 19,
+		"rank" : 2,
+		"content" : "Trứng gà đập ra tô, thêm 1/2 muỗng cà phê muối vào, khuấy đều."
+	},
+	{
+		"id" : 99,
+		"courseID" : 19,
+		"rank" : 3,
+		"content" : "Phi thơm gừng băm với 2 muỗng canh dầu ăn, cho cơm vào, đảo đều 2 phút."
+	},
+	{
+		"id" : 100,
+		"courseID" : 19,
+		"rank" : 4,
+		"content" : "Tiếp theo, cho trứng gà, 1 muỗng canh nước tương, hành lá, 1 muỗng cà phê hạt nêm vào, đảo đều."
+	},
+	{
+		"id" : 101,
+		"courseID" : 19,
+		"rank" : 5,
+		"content" : "Khi thấy cơm khô lại, chín, tắt bếp. Cho cơm rang trứng ra tô, dùng ngay cho nóng nhé!"
+	},
+	{
+		"id" : 102,
+		"courseID" : 20,
+		"rank" : 1,
+		"content" : "Hành tây bóc vỏ, cắt nhỏ thành hạt lựu. Thịt heo bằm cho ra đĩa hoặc chén."
+	},
+	{
+		"id" : 103,
+		"courseID" : 20,
+		"rank" : 2,
+		"content" : "Cơm cho ra chén. Ngò rí rửa sạch, để ráo."
+	},
+	{
+		"id" : 104,
+		"courseID" : 20,
+		"rank" : 3,
+		"content" : "Làm nóng 2 muỗng canh dầu ăn, cho hành tây, thịt heo bằm vào, xào đều. Nêm gia vị 1/2 muỗng cà phê muối, 1 muỗng cà phê hạt nêm, 1/2 muỗng cà phê tiêu cho vừa ăn, xào chín."
+	},
+	{
+		"id" : 105,
+		"courseID" : 20,
+		"rank" : 4,
+		"content" : "Dùng màng bọc thực phẩm, bọc cơm lại, nắm thành hình tròn"
+	},
+	{
+		"id" : 106,
+		"courseID" : 20,
+		"rank" : 5,
+		"content" : "Rong biển khô cắt thành mắt, mũi, miệng như hình. Đặt miếng rong biển lên cơm nắm."
+	},
+	{
+		"id" : 107,
+		"courseID" : 20,
+		"rank" : 6,
+		"content" : "Cho cơm nắm rong biển ra đĩa, thêm thịt heo bằm vào và trang trí bánh oreo, ngò rí để món ăn trông hấp dẫn hơn."
+	},
+	{
+		"id" : 108,
+		"courseID" : 21,
+		"rank" : 1,
+		"content" : "Cho bột mì, bột đậu nành, trứng gà vào tô. Sau đó, cho hành lá cắt nhỏ, 1/2 muỗng cà phê tiêu, 1 muỗng cà phê muối, 30ml nước vào, khuấy đều."
+	},
+	{
+		"id" : 109,
+		"courseID" : 21,
+		"rank" : 2,
+		"content" : "Làm nóng chảo chống dính, quết dầu ăn vào. Dùng muỗng múc hỗn hợp bột, trứng gà vào, chiên mỏng thành miếng nhỏ, hình tròn."
+	},
+	{
+		"id" : 110,
+		"courseID" : 21,
+		"rank" : 3,
+		"content" : "Gắp bánh ra, cuốn tròn lại, dùng tăm cố định để bánh không bị bung ra, dùng ngay nhé!"
+	},
+	{
+		"id" : 111,
+		"courseID" : 22,
+		"rank" : 1,
+		"content" : "Khoai mì, khoai tây gọt vỏ, nạo thành sợi nhỏ, cho vào máy xay sinh tố cùng 1/2 muỗng cà phê muối, xay nhuyễn."
+	},
+	{
+		"id" : 112,
+		"courseID" : 22,
+		"rank" : 2,
+		"content" : "Tẻ bớt phần nước hỗn hợp đã xay ra, cho bột mì, đường trắng, cà rốt bào sợi vào, trộn đều."
+	},
+	{
+		"id" : 113,
+		"courseID" : 22,
+		"rank" : 3,
+		"content" : "Làm nóng dầu ăn trong chảo, múc hỗn hợp vào, chiên vàng giòn 2 mặt."
+	},
+	{
+		"id" : 114,
+		"courseID" : 22,
+		"rank" : 4,
+		"content" : "Bánh chín, cho ra đĩa để nguội và chấm cùng tương ớt hoặc sốt me nếu thích nhé!"
+	},
+	{
+		"id" : 115,
+		"courseID" : 23,
+		"rank" : 1,
+		"content" : "Cho bột mì cùng bột tiêu, bột gừng, bột quế, bột nở cùng 1/4 muỗng cà phê muối vào máy xay sinh tố, bật máy khoảng 30 giây cho hỗn hợp trộn đều."
+	},
+	{
+		"id" : 116,
+		"courseID" : 23,
+		"rank" : 2,
+		"content" : "Tiếp đến cho siro táo và 2 quả trứng vào một chén. Dùng đĩa đánh đều. Tiếp đến cho bơ vào trong máy xay sinh tố, vừa thêm bơ vừa xay đều. Sau đó cho từng chút một hỗn hợp trứng vào."
+	},
+	{
+		"id" : 117,
+		"courseID" : 23,
+		"rank" : 3,
+		"content" : "Xay cho đến khi bột hòa quyện thành 1 hỗn hợp thống nhất thì lấy ra bọc lại trong màng bọc thực phẩm và đưa vào tủ lạnh cho bột nghỉ 1 tiếng đồng hồ."
+	},
+	{
+		"id" : 118,
+		"courseID" : 23,
+		"rank" : 4,
+		"content" : "Tiếp đến phủ lớp bột khô lên mặt phẳng, cho bột đã nghỉ lên, dùng cán cán mỏng khoảng 0.5cm."
+	},
+	{
+		"id" : 119,
+		"courseID" : 23,
+		"rank" : 5,
+		"content" : "Sau đó dùng khuôn cắt bánh quy, trộn trong bột khô rồi nhấn vào bột bánh thành hình dạng mong muốn. Rồi cẩn thận lấy phần bột đã tạo hình đặt lên khay nướng đã lót giấy nến. Nướng bánh ở 170 độ C trong khoảng 20 phút."
+	},
+	{
+		"id" : 120,
+		"courseID" : 23,
+		"rank" : 6,
+		"content" : "Làm đường icing: cho lòng trắng trứng nước cốt chanh đánh đến khi sủi bọt đều thì cho đường xay vào đánh từng ít một. Cho đến khi đặc thành kem, nhấc máy đánh lên mà hỗn hợp chảy xuống chậm đặc là được. Sau đó chia hỗn hợp ra từng chén nhỏ để trộn với màu thực phẩm. Trang trí lên mặt bánh theo sở thích!"
+	},
+	{
+		"id" : 121,
+		"courseID" : 24,
+		"rank" : 1,
+		"content" : "Bào sợi phô mai."
+	},
+	{
+		"id" : 122,
+		"courseID" : 24,
+		"rank" : 2,
+		"content" : "Bắc chảo lên bếp. Cho bơ vào tráng đều chảo sau đó cho sandwich lên áp chảo."
+	},
+	{
+		"id" : 123,
+		"courseID" : 24,
+		"rank" : 3,
+		"content" : "Rắc đều phô mai bào sợi lên miếng sandwich, tăng lửa sau đó đậy kín nắp vung lại, khoảng 3 phút sau thì mở nắp vung ra kiểm tra nếu phô mai đã chảy đều thì đặt miếng sandwich còn lại kẹp lên."
+	},
+	{
+		"id" : 124,
+		"courseID" : 24,
+		"rank" : 4,
+		"content" : "Nhẹ nhàng trở mặt sandwich. Hai mặt sandwich đều vàng đều thì gắp ra và thưởng thức."
+	},
+	{
+		"id" : 125,
+		"courseID" : 25,
+		"rank" : 1,
+		"content" : "Cho 200ml kem whipping, 2 muỗng cà phê nước vani và 50g đường vào thau, dùng máy đánh trứng đánh bông kem rồi đem bảo quản trong tủ mát."
+	},
+	{
+		"id" : 126,
+		"courseID" : 25,
+		"rank" : 2,
+		"content" : "Đun chảy 60g bơ rồi trộn với 250g bột mì, trứng gà, 400ml sữa tươi, 40g đường và 20ml dầu ăn với nhau, dùng máy đánh trứng đánh nhẹ để hỗn hợp hòa vào nhau."
+	},
+	{
+		"id" : 127,
+		"courseID" : 25,
+		"rank" : 3,
+		"content" : "Chia hỗn hợp thành 6 phần và pha màu khác nhau cho mỗi phần."
+	},
+	{
+		"id" : 128,
+		"courseID" : 25,
+		"rank" : 4,
+		"content" : "Đặt một chiếc chảo phẳng lên bếp, quét một lớp dầu mỏng lên mặt rồi đổ hỗn hợp bột vào tráng mỏng. Khi bánh tróc thì trở mặt để làm chín mặt còn lại. Thực hiện đến khi hết 6 phần bột."
+	},
+	{
+		"id" : 129,
+		"courseID" : 25,
+		"rank" : 5,
+		"content" : "Đặt một lớp bánh lên đĩa, phết kem thật mỏng lên mặt rồi đặt thêm một lớp bánh lên trên. Thực hiện liên tục đến khi hết bánh cùng màu rồi chuyển sang màu khác. Làm tương tự cho đến khi hoàn tất là có thể dùng."
+	},
+	{
+		"id" : 130,
+		"courseID" : 26,
+		"rank" : 1,
+		"content" : "Bột nếp trộn với nước, nhào thành khối nhuyễn mịn. Nấm hương ngâm vào nước ấm cho mềm, sau đó băm nhỏ. Lá hẹ rửa sạch, cắt nhỏ."
+	},
+	{
+		"id" : 131,
+		"courseID" : 26,
+		"rank" : 2,
+		"content" : "Trộn lá hẹ, thịt heo và nấm hương với nhau. Thêm 1/2 muỗng cà phê muối, 1/3 muỗng cà phê tiêu. Chia bột thành những phần nhỏ. Dàn đều từng miếng bột ra, cho nhân vào giữa rồi túm kín bột lại."
+	},
+	{
+		"id" : 132,
+		"courseID" : 26,
+		"rank" : 3,
+		"content" : "Thả bánh vào nồi nước, đun sôi. Khi bánh nổi lên mặt nước thì bánh chín."
+	},
+	{
+		"id" : 133,
+		"courseID" : 26,
+		"rank" : 4,
+		"content" : "Vớt bánh ra, để ráo nước rồi thưởng thức."
+	},
+	{
+		"id" : 134,
+		"courseID" : 27,
+		"rank" : 1,
+		"content" : "Ngâm trà vào 200ml nước sôi trong khoảng 15-20 phút rồi lọc lấy nước."
+	},
+	{
+		"id" : 135,
+		"courseID" : 27,
+		"rank" : 2,
+		"content" : "Sen gọt vỏ, ngâm vào tí nước muối, cắt lát tròn dày 0.5-1 cm tùy sở thích. Sau đó rửa sạch."
+	},
+	{
+		"id" : 136,
+		"courseID" : 27,
+		"rank" : 3,
+		"content" : "Cho củ sen vào nồi cùng với 500ml nước lọc. Khi nước sôi 10 phút thì cho đường thốt nốt vào. Thêm nước trà lài vào nấu cho đường tan thì tắt bếp."
+	},
+	{
+		"id" : 137,
+		"courseID" : 27,
+		"rank" : 4,
+		"content" : "Cho chè ra chén và thưởng thức. Thêm đá lạnh tùy thích."
+	},
+	{
+		"id" : 138,
+		"courseID" : 28,
+		"rank" : 1,
+		"content" : "Cho một chút nước vào 3 muỗng cà phê bột gelatine, để 5-10 phút cho gelatine nở."
+	},
+	{
+		"id" : 139,
+		"courseID" : 28,
+		"rank" : 2,
+		"content" : "Cho màng bọc thực phẩm vào một cái tô để tiện lấy ra."
+	},
+	{
+		"id" : 140,
+		"courseID" : 28,
+		"rank" : 3,
+		"content" : "Trộn chung sữa tươi không đường với kem sữa tươi. Cho 250ml hỗn hợp sữa và kem sữa tươi, cùng với 40g đường, khuấy trên lửa nhỏ cho tan đều. Khi đường tan cho gelatine đã ngâm nở vào khuấy cho tan. Bắc xuống cho vani, để nguội bớt rồi đổ vào tô. Cho vào tủ lạnh đến khi đông lại."
+	},
+	{
+		"id" : 141,
+		"courseID" : 28,
+		"rank" : 4,
+		"content" : "Khúc bạch đã đông nhấc ra, cắt miếng vừa ăn. Long nhãn chuẩn bị sẵn."
+	},
+	{
+		"id" : 142,
+		"courseID" : 28,
+		"rank" : 5,
+		"content" : "Cho khúc bạch vào chén, cho tiếp long nhãn, đá viên rồi chan nước dùng, rắc chút hạnh nhân lên trên. Thế là đã có chén chè khúc bạch thanh mát, giải nhiệt rồi đó."
+	},
+	{
+		"id" : 143,
+		"courseID" : 29,
+		"rank" : 1,
+		"content" : "Bí đỏ gọt sạch rồi cắt thành từng miếng nhỏ. Với táo cũng bỏ vỏ, bỏ hạt rồi cắt nhỏ."
+	},
+	{
+		"id" : 144,
+		"courseID" : 29,
+		"rank" : 2,
+		"content" : "Xay nhỏ táo trước rồi cho bí đỏ vào xay cùng. Nên cho thêm nước để máy dễ xay hơn."
+	},
+	{
+		"id" : 145,
+		"courseID" : 29,
+		"rank" : 3,
+		"content" : "Sau đó cho hỗn hợp vào nồi bắc lên bếp. Đun chè ở lửa nhỏ cho đến khi chín là được. Sẽ mất chừng 15-20 phút."
+	},
+	{
+		"id" : 146,
+		"courseID" : 29,
+		"rank" : 4,
+		"content" : "Ăn nóng hay lạnh đều ngon. Chè sẽ ngon hơn nếu có thêm chút nước cốt dừa hay kem tươi đấy. Hay ăn cùng chút hạt bí hay hạt hướng dương thì sao nhỉ?"
+	},
+	{
+		"id" : 147,
+		"courseID" : 30,
+		"rank" : 1,
+		"content" : "Bột báng rửa sạch, ngâm trong nước khoảng 15 phút."
+	},
+	{
+		"id" : 148,
+		"courseID" : 30,
+		"rank" : 2,
+		"content" : "Bí đỏ thái miếng vuông vừa ăn, cỡ 2x2 cm."
+	},
+	{
+		"id" : 149,
+		"courseID" : 30,
+		"rank" : 3,
+		"content" : "Cho 60gr đường vào sữa, khuấy tan."
+	},
+	{
+		"id" : 150,
+		"courseID" : 30,
+		"rank" : 4,
+		"content" : "Cho bí đỏ vào nồi, đổ nước xâm xấp, đun lửa vừa."
+	},
+	{
+		"id" : 151,
+		"courseID" : 30,
+		"rank" : 5,
+		"content" : "Khoảng 10 phút sau khi sôi là bí chín. Cho bột báng đã ngâm vào."
+	},
+	{
+		"id" : 152,
+		"courseID" : 30,
+		"rank" : 6,
+		"content" : "Đun khoảng 2-3 phút cho bột báng trong rồi cho sữa tươi đã pha thêm đường vào, lắc nồi để sữa hòa đều, bí thấm vị ngọt."
+	},
+	{
+		"id" : 153,
+		"courseID" : 30,
+		"rank" : 7,
+		"content" : "Múc chè bí đỏ bột báng nấu sữa tươi ra chén, ăn nóng."
 	}
 ]

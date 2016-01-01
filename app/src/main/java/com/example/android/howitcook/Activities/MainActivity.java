@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(userName != null){
             //Nếu rồi thì chuyển sang trang Welcome
             startActivity(_nextActivity);
+            finish();
         }else{
             //Load Database
 

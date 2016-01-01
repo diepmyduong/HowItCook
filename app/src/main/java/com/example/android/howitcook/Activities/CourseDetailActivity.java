@@ -28,11 +28,7 @@ public class CourseDetailActivity extends AppCompatActivity {
     private ImageView _imgCourseImage;
     private TextView _txtListStuff;
     private TextView _txtListStep;
-//    private ListView _listStuff;
-//    private ListView _listStep;
     private Course _currentCourse;
-//    private ArrayAdapter<String> _stuffAdapter;
-//    private ArrayAdapter<String> _stepAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +40,6 @@ public class CourseDetailActivity extends AppCompatActivity {
         _imgCourseImage = (ImageView)findViewById(R.id.img_course_item);
         _txtListStuff = (TextView)findViewById(R.id.txt_list_stuff);
         _txtListStep = (TextView)findViewById(R.id.txt_list_step);
-//        _listStuff = (ListView)findViewById(R.id.list_stuff);
-//        _listStep = (ListView)findViewById(R.id.list_step);
         //Get Course
         int id = (int)getIntent().getSerializableExtra(Constant.CURRENT_COURSE);
         _currentCourse = new CourseDAL().findById(id);
@@ -61,25 +55,16 @@ public class CourseDetailActivity extends AppCompatActivity {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-//        //Set List stuff
+        //Set List stuff
         String stuffs = "";
         for(Stuff stuff : _currentCourse.get_stuffs()){
             stuffs += "_ "+stuff.get_content()+"\n";
         }
         _txtListStuff.setText(stuffs);
-//        _stuffAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,
-//                                                android.R.id.text1,
-//                                                _currentCourse.get_stuffs_at_list());
-//        _listStuff.setAdapter(_stuffAdapter);
-//        //Set List step
         String steps = "";
         for(Step step : _currentCourse.get_steps()){
             steps += "_ "+step.get_content()+"\n";
         }
         _txtListStep.setText(steps);
-//        _stepAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,
-//                android.R.id.text1,
-//                _currentCourse.get_steps_at_list());
-//        _listStep.setAdapter(_stepAdapter);
     }
 }

@@ -2,6 +2,7 @@ package com.example.android.howitcook.DAL;
 
 import com.example.android.howitcook.Model.Category;
 import com.example.android.howitcook.Model.Course;
+import com.example.android.howitcook.StringHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,22 +17,7 @@ import io.realm.RealmResults;
  */
 public class CourseDAL {
 
-//    private List<Course> _course;
-
-    public CourseDAL(){
-//        _course = new ArrayList<>();
-//
-//        _course.add(new Course(1,"Fonda Hussman","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",6));
-//        _course.add(new Course(2,"Candance Greensfelder","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",6));
-//        _course.add(new Course(3,"Shelby Fuss","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",7));
-//        _course.add(new Course(4,"Phylis Gerthung","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",9));
-//        _course.add(new Course(5,"Lamonica Leva","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",9));
-//        _course.add(new Course(6,"Emmaline Sahni","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",6));
-//        _course.add(new Course(7,"Arvilla Foreback","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",9));
-//        _course.add(new Course(8,"Boris Dino","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",8));
-//        _course.add(new Course(9,"Roberto Cherwinski","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",8));
-//        _course.add(new Course(10,"Maile Javers","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maiores in voluptatibus et, similique ipsam eligendi esse dolor nam provident.","categories_1",9));
-    }
+    public CourseDAL(){}
 
     public List<Course> getAllList(){
         Realm realm = Realm.getDefaultInstance();
@@ -39,16 +25,9 @@ public class CourseDAL {
         RealmResults<Course> models = query.findAll();
         realm.close();
         return models.subList(0,models.size());
-//        return _course;
     }
 
     public Course findById(int id){
-//        for (Course course:_course) {
-//            if(course.get_id() == id){
-//                return course;
-//            }
-//        }
-//        return  null;
         Realm realm = Realm.getDefaultInstance();
         Course result = realm.where(Course.class).equalTo("_id",id).findFirst();
         realm.close();
@@ -56,13 +35,6 @@ public class CourseDAL {
     }
 
     public List<Course> findByCategory(int id){
-//        List<Course> result = new ArrayList<>();
-//        for(Course course:_course){
-//            if(course.get_categoryID() == id){
-//                result.add(course);
-//            }
-//        }
-//        return result;
         Realm realm = Realm.getDefaultInstance();
         RealmQuery<Course> query = realm.where(Course.class).equalTo("_categoryID",id);
         RealmResults<Course> models = query.findAll();
@@ -81,18 +53,20 @@ public class CourseDAL {
         return findByFilter(request,getAllList());
     }
     public List<Course> findByFilter(String request, List<Course> data){
-        request = request.toLowerCase();
+        request = StringHelper.removeAccent(request.toLowerCase());
         List<Course> result = new ArrayList<>();
         for(Course course: data){
-            if(course.get_title().toLowerCase().contains(request)){
+            if(StringHelper.removeAccent(course.get_title().toLowerCase()).contains(request)){
                 result.add(course);
                 continue;
             }
-            if(course.get_description().toLowerCase().contains(request)){
+            if(StringHelper.removeAccent(course.get_description().toLowerCase()).contains(request)){
                 result.add(course);
                 continue;
             }
         }
         return result;
     }
+
+
 }

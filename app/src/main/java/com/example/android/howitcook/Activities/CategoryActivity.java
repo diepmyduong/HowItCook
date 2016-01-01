@@ -80,6 +80,7 @@ public class CategoryActivity extends AppCompatActivity {
                 Intent i = new Intent(CategoryActivity.this,CourseDetailActivity.class);
                 i.putExtra(Constant.CURRENT_COURSE,course.get_id());
                 startActivity(i);
+
             }
         };
     }
